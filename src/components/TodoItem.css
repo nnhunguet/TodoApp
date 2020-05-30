@@ -1,0 +1,21 @@
+.TodoItem {
+  background-color: white;
+  padding: 10px 12px ;
+  margin: 3px 5px 30px 5px; 
+  border-radius: 5px;
+  display: flex;
+}
+
+.TodoItem > p, .TodoItem > span {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0px;
+}
+
+.TodoItem-isDone {
+  text-decoration: line-through;
+  background-color: #3163aa;
+  color: white;
+}
+
